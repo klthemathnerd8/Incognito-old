@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Access the world wide web",
   "main": "index.js",
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=16.0.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "repository": {
@@ -12,7 +15,7 @@
     "url": "git+https://github.com/titaniumnetwork-dev/Incognito.git"
   },
   "keywords": [
-    "proxy"
+    ""
   ],
   "author": "Titanium Network",
   "license": "ISC",
